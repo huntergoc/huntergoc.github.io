@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kaushan Script', cursive;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: rgb(68, 68, 88);
+}
+.logo{
+    display: flex;
+    position: absolute;
+    width: 201px;
+    height: 201px;
+    left: 80px;
+    top: 50px;
+    background: url(91596341_102286311435749_5252585307534000128_n.jpg);
+    background-blend-mode: multiply;
+    box-shadow: -20px -10px 10px 2px rgba(95, 69, 50, 0.84);
+    border-radius: 307px;
+    box-shadow: -20px -10px 10px 2px rgba(179, 90, 27, 0.84);
+    border: 1px solid rgba(0, 0, 0, 1)
+}
+.text{
+    display: flex;
+    position: relative;
+    width: 592px;
+    height: 157px;
+    left: 500px;
+    top: 40px;
+    /* font-family: Roboto Slab; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 103%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.515em;
+    color: rgba(255, 77, 1, 0.92);
+
+}
+.p-texto{
+    display: flex;
+
+}
+.parrafo{
+    position: absolute;
+    height: 490px;
+    left: 180px;
+    top: 100px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 96%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.515em;
+    color: #FF9900;
+
+}
+.h1-p{
+    position: absolute;
+    height: 490px;
+    left: 100px;
+    top: 200px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 96%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.515em;
+    color: #FF9900;
+}
+.h2-del-parrafo{
+    padding-top: 30px;
+    position: absolute;
+    height: 490px;
+    left: 100px;
+    top: 300px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    letter-spacing: 0.515em;
+    color: #FF9900;
+}
+.h2-middle{
+    display: flex;
+}
+.h2middle{
+    padding-top: 30px;
+    position: relative;
+    height: 490px;
+    left: 600px;
+    top: 300px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.515em;
+    color: #FF9900;
+    
+}
+main .container-images{
+    display: flex;
+    margin-top: auto;
+
+}
+.imagen1{
+    margin: -60px 20px;
+    border-radius: 30px;
+}
+/* .waves{
+    padding-top;
+} */
+.h2-middle1{
+    position: relative;
+    display: flex;
+}
+.h2middle1{
+    padding-top: 100px;
+    position: absolute;
+    left: 580px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.515em;
+    color: #FF9900;
+    
+}
+.imagen-2{
+    position: relative;
+    display: flex;
+    left: 350px;
+    align-content: center;
+    border-radius: 30px;
+    margin-top: -225px;
+}
+.imagen2 svg{
+    margin: 70px 0;
+}
+
+.h2-middle2{
+    position: relative;
+    display: flex;
+}
+.h2middle2{
+    margin-top: -59px;
+    padding-top: 100px;
+    position: absolute;
+    left: 580px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.515em;
+    color: #FF9900;
+    
+}
+.imagen-3{
+    position: relative;
+    display: flex;
+    left: 350px;
+    align-content: center;
+    border-radius: 30px;
+    margin-top: -170px;
+}
+.imagen3 svg{
+    margin: 20px 0;
+}
+.footer-img{
+    display: flex;
+    position: absolute;
+    bottom: 40px;
+    left: 400px;
+}
+.footer-img:hover{
+    cursor: pointer;
+    transform: translate(10px);
+    transition: 0.5s ease;
+}
+
+.footer-img1{
+    display: flex;
+    position: absolute;
+    bottom: 40px;
+    left: 900px;
+}
+.footer-img1:hover{
+    cursor: pointer;
+    transform: translate(10px);
+    transition: 0.5s ease;
+}
+
+.div-footer-h1{
+    position: absolute;
+    bottom: 180px;
+    text-align: center;
+    left: 490px;
+}
+
+/* ANIMACION PIZZA */
+
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+.contenedor figure{
+   position:relative;
+    height: 250px;
+    cursor: pointer;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+.contenedor figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 400ms ease-out;
+    will-change: transform;
+}
+.contenedor figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+}
+.contenedor figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor figure:hover > .capa h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedor figure .capa h3{
+    color: rgb(255, 102, 0);
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+     margin-top: 30px;
+     font-size: 30px;
+     line-height: 17px;
+}
+.contenedor figure .capa p{
+    color: rgb(250, 79, 0);
+    font-size: 28px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+  
+    
